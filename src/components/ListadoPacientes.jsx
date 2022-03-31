@@ -1,7 +1,7 @@
 import React from 'react'
 import Paciente from './Paciente'
 
-const ListadoPacientes = ({pacientes, setPacientes, setPaciente}) => {
+const ListadoPacientes = ({pacientes, eliminarPaciente, setPaciente}) => {
 
   return (
     <div className='md:w-1/2 lg:w-3/5 md:h-screen overflow-y-scroll'>
